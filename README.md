@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚═╝     ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚══════╝
 ```
 
-### Aaron Myers, Ph.D. &nbsp;·&nbsp; CTO
+### `Aaron Myers, Ph.D.` &nbsp;·&nbsp; CTO &nbsp;·&nbsp; AI Engineer &nbsp;·&nbsp; Founder
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaronnmyers/)
 [![Website](https://img.shields.io/badge/myers.phd-111111?style=for-the-badge&logo=githubpages&logoColor=white)](https://www.myers.phd/)
@@ -49,9 +49,16 @@ I believe AI is the most powerful tool we have for fixing hiring — creating mo
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-**Data**
+**Data & Messaging**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+**Platform**
+
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
 ---
 
@@ -59,9 +66,14 @@ I believe AI is the most powerful tool we have for fixing hiring — creating mo
 
 ```json
 {
-  "role": "CTO @ Suited",
-  "focus": "AI-powered psychological assessment for recruiting in law & finance",
-  "side": "Fractional CTO consulting for early-stage AI startups"
+  "day_job": {
+    "role": "CTO @ Suited",
+    "focus": "AI-powered psychological assessment for recruiting in law & finance"
+  },
+  "consulting": {
+    "what": "Fractional CTO & technology advisor",
+    "who": "Early-stage startups, AI companies, and non-tech businesses needing technical leadership"
+  }
 }
 ```
 
