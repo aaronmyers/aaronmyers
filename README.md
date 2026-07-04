@@ -84,26 +84,24 @@ I believe AI is the most powerful tool we have for fixing hiring — creating mo
 ![DeepSpeed](https://img.shields.io/badge/DeepSpeed-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Megatron-LM](https://img.shields.io/badge/Megatron--LM-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![JAX](https://img.shields.io/badge/JAX-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Triton](https://img.shields.io/badge/OpenAI_Triton-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![FlashAttention](https://img.shields.io/badge/FlashAttention-8A2BE2?style=for-the-badge)
 ![NCCL](https://img.shields.io/badge/NCCL-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Ray](https://img.shields.io/badge/Ray-028CF0?style=for-the-badge&logo=ray&logoColor=white)
 ![Slurm](https://img.shields.io/badge/Slurm-2E8B57?style=for-the-badge)
 
 ```text
-├── distributed training ── data / tensor / pipeline / sequence parallelism · ZeRO · FSDP
-├── training at scale ───── mixed precision (bf16/fp8) · gradient checkpointing · fault-tolerant
-│                           checkpointing · MFU optimization · multi-node orchestration
-├── data engineering ────── web-scale corpus curation · dedup (MinHash/LSH) · quality filtering ·
-│                           tokenizer training (BPE / SentencePiece) · data mixture design
-├── modeling ────────────── transformer architectures · MoE · RoPE/ALiBi · attention variants ·
-│                           scaling laws · hyperparameter transfer (muP)
-├── post-training ───────── SFT · RLHF (PPO) · DPO · reward modeling · instruction tuning ·
-│                           LoRA / QLoRA / PEFT
-├── evaluation ──────────── benchmark harnesses · loss-curve forensics · ablation design ·
-│                           contamination checks
-└── inference ───────────── vLLM · KV-cache optimization · quantization (GPTQ / AWQ) ·
-                            speculative decoding · continuous batching
+# focus: pre-training
+├── distributed training ── data / tensor / pipeline parallelism · ZeRO · FSDP
+├── training at scale ───── mixed precision (bf16) · gradient checkpointing ·
+│                           fault-tolerant checkpointing · multi-node orchestration
+├── data engineering ────── large-scale corpus curation · dedup (MinHash/LSH) ·
+│                           quality filtering · tokenization (BPE / SentencePiece)
+└── modeling ────────────── transformer architectures · attention variants · scaling laws
+
+# working familiarity
+├── post-training ───────── SFT · RLHF · DPO · LoRA / PEFT
+├── evaluation ──────────── benchmark harnesses · ablation design
+└── inference ───────────── vLLM · quantization · KV-cache optimization
 ```
 
 **ML Infrastructure & Deployment**
