@@ -33,7 +33,7 @@ Previously co-founded an AI recruiting startup focused on removing bias from hir
 
 I believe AI is the most powerful tool we have for fixing hiring — creating more opportunity for candidates and better outcomes for firms. My work sits at the intersection of **machine learning, security infrastructure, and building teams that ship**.
 
-> *Deep experience in: ML infrastructure → production · SOC 2 compliance · cross-disciplinary team leadership · fundraising · board communication · zero-to-one product development*
+> *Deep experience in: LLM pre-training & distributed ML systems · ML infrastructure → production · SOC 2 compliance · cross-disciplinary team leadership · fundraising · board communication · zero-to-one product development*
 
 ---
 
@@ -76,6 +76,35 @@ I believe AI is the most powerful tool we have for fixing hiring — creating mo
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+
+**LLM Pre-Training & Large-Scale Training**
+
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![PyTorch FSDP](https://img.shields.io/badge/PyTorch_FSDP-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![DeepSpeed](https://img.shields.io/badge/DeepSpeed-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Megatron-LM](https://img.shields.io/badge/Megatron--LM-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![JAX](https://img.shields.io/badge/JAX-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Triton](https://img.shields.io/badge/OpenAI_Triton-412991?style=for-the-badge&logo=openai&logoColor=white)
+![FlashAttention](https://img.shields.io/badge/FlashAttention-8A2BE2?style=for-the-badge)
+![NCCL](https://img.shields.io/badge/NCCL-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Ray](https://img.shields.io/badge/Ray-028CF0?style=for-the-badge&logo=ray&logoColor=white)
+![Slurm](https://img.shields.io/badge/Slurm-2E8B57?style=for-the-badge)
+
+```text
+├── distributed training ── data / tensor / pipeline / sequence parallelism · ZeRO · FSDP
+├── training at scale ───── mixed precision (bf16/fp8) · gradient checkpointing · fault-tolerant
+│                           checkpointing · MFU optimization · multi-node orchestration
+├── data engineering ────── web-scale corpus curation · dedup (MinHash/LSH) · quality filtering ·
+│                           tokenizer training (BPE / SentencePiece) · data mixture design
+├── modeling ────────────── transformer architectures · MoE · RoPE/ALiBi · attention variants ·
+│                           scaling laws · hyperparameter transfer (muP)
+├── post-training ───────── SFT · RLHF (PPO) · DPO · reward modeling · instruction tuning ·
+│                           LoRA / QLoRA / PEFT
+├── evaluation ──────────── benchmark harnesses · loss-curve forensics · ablation design ·
+│                           contamination checks
+└── inference ───────────── vLLM · KV-cache optimization · quantization (GPTQ / AWQ) ·
+                            speculative decoding · continuous batching
+```
 
 **ML Infrastructure & Deployment**
 
